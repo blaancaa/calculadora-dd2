@@ -1,0 +1,1078 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/yohan.valentin/Documents/DDII/MEDTH-20260421T113516Z-3-001/MEDTH/modelsim
+Ecalculadora
+Z0 w1779538384
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM
+Z4 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CALCULADORA.vhd
+Z5 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CALCULADORA.vhd
+l0
+L5
+VS3<=?T9WK17Ko]oW82:OV1
+!s100 kF2foX2gBhQP8kK5Y67ZB3
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1781114554
+!i10b 1
+Z8 !s108 1781114554.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CALCULADORA.vhd|
+Z10 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CALCULADORA.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Aestructural
+Z13 DEx4 work 8 displays 0 22 :m=OC2^I3=QF<<^gUjoO30
+Z14 DEx4 work 5 timer 0 22 XjkfPH2`o91P<J^D0W[hO0
+Z15 DEx4 work 12 conv_ca2_bcd 0 22 gz;eP2k0Wge^BJDafH7OE2
+Z16 DEx4 work 11 operaciones 0 22 b1DPjFI^`anLiA48S`l?C1
+Z17 DEx4 work 12 conv_bcd_ca2 0 22 H4bSaDS@CoPo]TN0?af4k2
+Z18 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z19 DEx4 work 7 ctrl_op 0 22 N32Kbee;RX8Mcn0b3zQ]O3
+Z20 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z21 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z22 DEx4 work 8 ctrl_tec 0 22 M]e:DFJ3`@4kGHCff1C;]2
+R1
+R2
+Z23 DEx4 work 11 calculadora 0 22 S3<=?T9WK17Ko]oW82:OV1
+l40
+L19
+Vc7fV4kzl8H0VPHVW7<oCg1
+!s100 Uz`3WiZ2dVDHnW=W^;PN<3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Econv_bcd_bin
+Z24 w1778587796
+R20
+R21
+R1
+R2
+Z25 dD:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM
+Z26 8D:\UNIVERSIDAD_Blanca\8semestre\DD_II\BT2\Calculadora_F3\HDL\CONV_BCD_CA2\conv_bcd_ca2.vhd
+Z27 FD:\UNIVERSIDAD_Blanca\8semestre\DD_II\BT2\Calculadora_F3\HDL\CONV_BCD_CA2\conv_bcd_ca2.vhd
+l0
+L5
+VmOhz844_`YBf7W4H5=l:70
+!s100 P8iZ0fCiYIDD:JQVWoJo=3
+R6
+32
+Z28 !s110 1778587885
+!i10b 1
+Z29 !s108 1778587885.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\UNIVERSIDAD_Blanca\8semestre\DD_II\BT2\Calculadora_F3\HDL\CONV_BCD_CA2\conv_bcd_ca2.vhd|
+Z31 !s107 D:\UNIVERSIDAD_Blanca\8semestre\DD_II\BT2\Calculadora_F3\HDL\CONV_BCD_CA2\conv_bcd_ca2.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R1
+R2
+DEx4 work 12 conv_bcd_bin 0 22 mOhz844_`YBf7W4H5=l:70
+l16
+L14
+VgG9XN5j_k2e95=WcR32BK1
+!s100 g4>MjR=4_6dCQ:cog0en92
+R6
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R12
+Econv_bcd_ca2
+Z32 w1778587978
+R20
+R21
+R1
+R2
+R3
+Z33 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_BCD_CA2/conv_bcd_ca2.vhd
+Z34 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_BCD_CA2/conv_bcd_ca2.vhd
+l0
+L5
+VH4bSaDS@CoPo]TN0?af4k2
+!s100 29I_J^5`V0>^2H9zUP;9j3
+R6
+32
+Z35 !s110 1781114555
+!i10b 1
+Z36 !s108 1781114555.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_BCD_CA2/conv_bcd_ca2.vhd|
+Z38 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_BCD_CA2/conv_bcd_ca2.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R1
+R2
+R17
+l16
+L14
+V_?`QQnkJSA8fH:=:SZS383
+!s100 @0EhHiMN`C0b5g`8WOAce0
+R6
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R11
+R12
+Econv_bin_bcd
+Z39 w1777992016
+R20
+R21
+R1
+R2
+Z40 dE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM
+Z41 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/HDL/conv_bin_bcd.vhd
+Z42 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/HDL/conv_bin_bcd.vhd
+l0
+L5
+Vz4[ag@h[@2KS`blQUcY5M1
+!s100 :DkS>FzASM<O74k9[:`T]0
+R6
+32
+Z43 !s110 1778059158
+!i10b 1
+Z44 !s108 1778059158.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/HDL/conv_bin_bcd.vhd|
+Z46 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/HDL/conv_bin_bcd.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R1
+R2
+Z47 DEx4 work 12 conv_bin_bcd 0 22 z4[ag@h[@2KS`blQUcY5M1
+l27
+L15
+V^mLJ;ef7ViGD6ZO7U28n42
+!s100 ;RAS0_491dB=z6UDD@^YR2
+R6
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12
+Econv_ca2_bcd
+Z48 w1778155740
+R20
+R21
+R1
+R2
+R3
+Z49 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_CA2_BCD/conv_ca2_bcd.vhd
+Z50 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_CA2_BCD/conv_ca2_bcd.vhd
+l0
+L5
+Vgz;eP2k0Wge^BJDafH7OE2
+!s100 AgRWe`MKa1X3X^Qaho3mY1
+R6
+32
+R35
+!i10b 1
+R36
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_CA2_BCD/conv_ca2_bcd.vhd|
+Z52 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CONV_CA2_BCD/conv_ca2_bcd.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R1
+R2
+R15
+l27
+L15
+V7nAMAO@S5YaNIGjB_1W4G1
+!s100 [YhmBHOo0FVKKUgKa;?0g3
+R6
+32
+R35
+!i10b 1
+R36
+R51
+R52
+!i113 1
+R11
+R12
+Ectrl_op
+Z53 w1781114550
+R20
+R18
+R1
+R2
+R3
+Z54 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CTRL_OP/ctrl_op.vhd
+Z55 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CTRL_OP/ctrl_op.vhd
+l0
+L5
+VN32Kbee;RX8Mcn0b3zQ]O3
+!s100 nE3lO7zU[1zRI^bo93@;R3
+R6
+32
+R35
+!i10b 1
+R36
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CTRL_OP/ctrl_op.vhd|
+Z57 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/CTRL_OP/ctrl_op.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R18
+R1
+R2
+R19
+l33
+L13
+VSR;dhh9<XB:cZ?GR1@8GE2
+!s100 X2TC^Dmz53m66c=WCd]QR0
+R6
+32
+R35
+!i10b 1
+R36
+R56
+R57
+!i113 1
+R11
+R12
+Ectrl_tec
+Z58 w1778147274
+R20
+R21
+R1
+R2
+R3
+Z59 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TECLADO/ctrl_tec.vhd
+Z60 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TECLADO/ctrl_tec.vhd
+l0
+L6
+VM]e:DFJ3`@4kGHCff1C;]2
+!s100 zhlKH8i?E:7c0EPSY`=4J1
+R6
+32
+Z61 !s110 1781114556
+!i10b 1
+Z62 !s108 1781114556.000000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TECLADO/ctrl_tec.vhd|
+Z64 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TECLADO/ctrl_tec.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R1
+R2
+R22
+l20
+L13
+V^VPOlE4b]?lB1AXOm]U653
+!s100 6^ChzSgfA[d[N47T3eITY0
+R6
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R11
+R12
+Edisplays
+Z65 w1778146604
+R20
+R21
+R1
+R2
+R3
+Z66 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/DISPLAYS/displays.vhd
+Z67 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/DISPLAYS/displays.vhd
+l0
+L5
+V:m=OC2^I3=QF<<^gUjoO30
+!s100 95IJGR0kbCEf_elDKCi9O1
+R6
+32
+R35
+!i10b 1
+R36
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/DISPLAYS/displays.vhd|
+Z69 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/DISPLAYS/displays.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R1
+R2
+R13
+l28
+L21
+V48`<?3b1nQaj@FdbcfZPG1
+!s100 lc?f6e_imoR^ZdlDZH4`e1
+R6
+32
+R35
+!i10b 1
+R36
+R68
+R69
+!i113 1
+R11
+R12
+Eestimulos
+Z70 w1775332942
+Z71 DPx4 work 17 pack_test_teclado 0 22 DT5dZg`;h7bfb1gb3i3_X3
+R20
+R21
+R1
+R2
+R3
+Z72 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/estimulos.vhd
+Z73 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/estimulos.vhd
+l0
+L15
+V:GjnWFTzaBk`5MTjoGC^k0
+!s100 TJll>0`4^:<ZdNj]cfa[T3
+R6
+32
+Z74 !s110 1781114553
+!i10b 1
+Z75 !s108 1781114552.000000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/estimulos.vhd|
+Z77 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/estimulos.vhd|
+!i113 1
+R11
+R12
+Atest
+R71
+R20
+R21
+R1
+R2
+Z78 DEx4 work 9 estimulos 0 22 :GjnWFTzaBk`5MTjoGC^k0
+l27
+L25
+V_g]0<RHTHP3]CbR_2hehZ1
+!s100 ZK;4aB4b6?38AYN^SHG_T3
+R6
+32
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 1
+R11
+R12
+Emonitor
+Z79 w1778147334
+R71
+R20
+R21
+R1
+R2
+R3
+Z80 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/monitor.vhd
+Z81 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/monitor.vhd
+l0
+L18
+V3_S=fkBV;:=5c01RLXF@02
+!s100 KEFJ?<GN9cLe:C@jlWAf33
+R6
+32
+R74
+!i10b 1
+Z82 !s108 1781114553.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/monitor.vhd|
+Z84 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/monitor.vhd|
+!i113 1
+R11
+R12
+Atest
+R71
+R20
+R21
+R1
+R2
+Z85 DEx4 work 7 monitor 0 22 3_S=fkBV;:=5c01RLXF@02
+l30
+L28
+V=QX5mPYY?N^E@fkWGQX7j2
+!s100 W]^nXIE;ZS:D2?8je?6SK3
+R6
+32
+R74
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R11
+R12
+Emultiplicador
+Z86 w1778144702
+R1
+R2
+R3
+Z87 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/multiplicador.vhd
+Z88 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/multiplicador.vhd
+l0
+L43
+V`FgR49Uz4nDI2@MkXI[`[0
+!s100 CS9mLiT_RKVRaRj:?h]ai0
+R6
+32
+R61
+!i10b 1
+R62
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/multiplicador.vhd|
+Z90 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/multiplicador.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+Z91 DEx4 work 13 multiplicador 0 22 `FgR49Uz4nDI2@MkXI[`[0
+l75
+L53
+VZA6mfU7MnX]ZOb_lnie_@2
+!s100 >M_KfOU[F6B^I;IgJWlMH0
+R6
+32
+R61
+!i10b 1
+R62
+R89
+R90
+!i113 1
+R11
+R12
+Eoperaciones
+Z92 w1778576590
+R20
+R18
+R1
+R2
+R3
+Z93 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/operaciones.vhd
+Z94 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/operaciones.vhd
+l0
+L5
+Vb1DPjFI^`anLiA48S`l?C1
+!s100 ClFVRcA;4:8]9=I:Rz?CN3
+R6
+32
+R61
+!i10b 1
+R62
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/operaciones.vhd|
+Z96 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/OPERACIONES/operaciones.vhd|
+!i113 1
+R11
+R12
+Artl
+R91
+R20
+R18
+R1
+R2
+R16
+l18
+L14
+V0cVg9V1UC>2JE`h>Vo9oS2
+!s100 OR3@NB<1>=EUG<^7Wln:_0
+R6
+32
+R61
+!i10b 1
+R62
+R95
+R96
+!i113 1
+R11
+R12
+Ppack_test_teclado
+R20
+R21
+R1
+R2
+Z97 w1775307376
+R3
+Z98 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/pack_test_teclado.vhd
+Z99 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/pack_test_teclado.vhd
+l0
+L27
+VDT5dZg`;h7bfb1gb3i3_X3
+!s100 n:88o=jGfd;Zzl3;AN`7Z2
+R6
+32
+b1
+R74
+!i10b 1
+R82
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/pack_test_teclado.vhd|
+Z101 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/pack_test_teclado.vhd|
+!i113 1
+R11
+R12
+Bbody
+R71
+R20
+R21
+R1
+R2
+l0
+L53
+VBmi3>JQRHmY:h2i3j_3hg3
+!s100 mfi2@MCGR?kUSQdaAO`KE3
+R6
+32
+R74
+!i10b 1
+R82
+R100
+R101
+!i113 1
+R11
+R12
+Epll_100mhz_conarst
+Z102 w1776940194
+R1
+R2
+R25
+Z103 8D:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/PLL/pll_100MHz_conarst.vhd
+Z104 FD:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/PLL/pll_100MHz_conarst.vhd
+l0
+L43
+VIDElg@dJ1i9I0bD6nA6hR1
+!s100 >mkz?k]^oRFWIz[19jf3N0
+R6
+32
+Z105 !s110 1778576288
+!i10b 1
+Z106 !s108 1778576288.000000
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/PLL/pll_100MHz_conarst.vhd|
+Z108 !s107 D:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/PLL/pll_100MHz_conarst.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+Z109 DEx4 work 18 pll_100mhz_conarst 0 22 IDElg@dJ1i9I0bD6nA6hR1
+l147
+L73
+V04TWJZ@R]1gbZ1?07<bh=0
+!s100 72kbK3NK56WLRLiP<bm^K3
+R6
+32
+R105
+!i10b 1
+R106
+R107
+R108
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+R109
+l54
+L53
+VKXj>[]77QmLhCDjHn7o302
+!s100 <HCIzEBm6WSOJ9bbM`S5[0
+R6
+32
+R105
+!i10b 1
+R106
+R107
+R108
+!i113 1
+R11
+R12
+Etb_conv_bcd_bin
+Z110 w1777990944
+R20
+R21
+R1
+R2
+R40
+8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bcd_bin.vhd
+FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bcd_bin.vhd
+l0
+L5
+VH1mE9M<kBNAho80o]UMZ?3
+!s100 4VOgbo<7MKT8nGZ3j1DL;2
+R6
+32
+R43
+!i10b 1
+R44
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bcd_bin.vhd|
+!s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bcd_bin.vhd|
+!i113 1
+R11
+R12
+Atest
+DEx4 work 12 conv_bcd_bin 0 22 ?QUNTF];1J@L>c;ZKbnB62
+R20
+R21
+R1
+R2
+DEx4 work 15 tb_conv_bcd_bin 0 22 H1mE9M<kBNAho80o]UMZ?3
+l42
+L8
+VT^CQRfSZ2^kTNz:dHOb<n0
+!s100 4iFW[bmB23KY9R=eccUH92
+R6
+32
+!s110 1777990946
+!i10b 1
+!s108 1777990946.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora/MODELSIM/tb_conv_bcd_bin.vhd|
+!s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora/MODELSIM/tb_conv_bcd_bin.vhd|
+!i113 1
+R11
+R12
+dE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora/MODELSIM
+FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora/MODELSIM/tb_conv_bcd_bin.vhd
+8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora/MODELSIM/tb_conv_bcd_bin.vhd
+Etb_conv_bcd_ca2
+Z111 w1779536622
+R20
+R21
+R1
+R2
+R3
+Z112 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_bcd_ca2.vhd
+Z113 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_bcd_ca2.vhd
+l0
+L5
+VPDl1zEJO1gd8kN8bIzJ921
+!s100 KCo1BmQ[^ajCi=Z0GB9KX0
+R6
+32
+R74
+!i10b 1
+R82
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_bcd_ca2.vhd|
+Z115 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_bcd_ca2.vhd|
+!i113 1
+R11
+R12
+Atest
+R17
+R20
+R21
+R1
+R2
+DEx4 work 15 tb_conv_bcd_ca2 0 22 PDl1zEJO1gd8kN8bIzJ921
+l42
+L8
+VY7MNNPCPi1d@ACB[A`<S51
+!s100 ThOEdP3D]>hIPoB^Tzo1>2
+R6
+32
+R74
+!i10b 1
+R82
+R114
+R115
+!i113 1
+R11
+R12
+Etb_conv_bin_bcd
+Z116 w1777991274
+R20
+R21
+R1
+R2
+R40
+Z117 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bin_bcd.vhd
+Z118 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bin_bcd.vhd
+l0
+L5
+Vg9OV[Y?0;IaZPJMeUM;P]0
+!s100 kd2h5R1RYNRnGdZeOV[3N1
+R6
+32
+Z119 !s110 1778059159
+!i10b 1
+R44
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bin_bcd.vhd|
+Z121 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F2/MODELSIM/tb_conv_bin_bcd.vhd|
+!i113 1
+R11
+R12
+Atest
+R47
+R20
+R21
+R1
+R2
+DEx4 work 15 tb_conv_bin_bcd 0 22 g9OV[Y?0;IaZPJMeUM;P]0
+l16
+L8
+Vjdg=AX:f[]c:>]@_IQmfB0
+!s100 NaXH:SbjjObUN4X:0XQFo2
+R6
+32
+R119
+!i10b 1
+R44
+R120
+R121
+!i113 1
+R11
+R12
+Etb_conv_ca2_bcd
+Z122 w1779536656
+R20
+R21
+R1
+R2
+R3
+Z123 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_ca2_bcd.vhd
+Z124 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_ca2_bcd.vhd
+l0
+L5
+VJBZdHTWZ=K]VcPUg[C8Zi3
+!s100 iemm4ID<D5]OVRYMlBUIM0
+R6
+32
+R7
+!i10b 1
+R82
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_ca2_bcd.vhd|
+Z126 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_conv_ca2_bcd.vhd|
+!i113 1
+R11
+R12
+Atest
+R15
+R20
+R21
+R1
+R2
+DEx4 work 15 tb_conv_ca2_bcd 0 22 JBZdHTWZ=K]VcPUg[C8Zi3
+l16
+L8
+VC>8A?:aEa`7e0>6LdXi4Y0
+!s100 XiVN3Z_<N8ggaI^Bi48nE3
+R6
+32
+R7
+!i10b 1
+R82
+R125
+R126
+!i113 1
+R11
+R12
+Etb_ctrl_op
+Z127 w1778575900
+R20
+R21
+R1
+R2
+R3
+Z128 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_ctrl_op.vhd
+Z129 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_ctrl_op.vhd
+l0
+L5
+V=<JH[jIgX=6l>^A:l;1Ij1
+!s100 PP:aoTon1SjYA648@6l9O2
+R6
+32
+R7
+!i10b 1
+R8
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_ctrl_op.vhd|
+Z131 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_ctrl_op.vhd|
+!i113 1
+R11
+R12
+Atest
+R18
+R19
+R20
+R21
+R1
+R2
+DEx4 work 10 tb_ctrl_op 0 22 =<JH[jIgX=6l>^A:l;1Ij1
+l115
+L8
+VN@lNz95eo^dDXQRHC;c5Y1
+!s100 ;M2CP0g^k^elQoZ4dlkCh0
+R6
+32
+R7
+!i10b 1
+R8
+R130
+R131
+!i113 1
+R11
+R12
+Etb_operaciones
+Z132 w1779539082
+R20
+R21
+R1
+R2
+R3
+Z133 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_operaciones.vhd
+Z134 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_operaciones.vhd
+l0
+L5
+VOjHRQi=BP0_3mOU90P?9T1
+!s100 c68MPlBbhgnUddVWj3ngD0
+R6
+32
+R61
+!i10b 1
+R62
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_operaciones.vhd|
+Z136 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/tb_operaciones.vhd|
+!i113 1
+R11
+R12
+Atest
+R18
+R16
+R20
+R21
+R1
+R2
+Z137 DEx4 work 14 tb_operaciones 0 22 OjHRQi=BP0_3mOU90P?9T1
+l15
+L8
+Z138 VZV``2@5;gkRd?6=EAe70_2
+Z139 !s100 <:h`]_5:W9Eo@>hTT]Gfo1
+R6
+32
+R61
+!i10b 1
+R62
+R135
+R136
+!i113 1
+R11
+R12
+Eteclado
+Z140 w1773999704
+R1
+R2
+R3
+Z141 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/teclado.vhd
+Z142 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/teclado.vhd
+l0
+L22
+VZf<WKn_XFb@bKhJJ6h_P12
+!s100 oNGGM<Jb4PQ_kT5<kPoDm2
+R6
+32
+R7
+!i10b 1
+R8
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/teclado.vhd|
+Z144 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/teclado.vhd|
+!i113 1
+R11
+R12
+Atest
+R1
+R2
+Z145 DEx4 work 7 teclado 0 22 Zf<WKn_XFb@bKhJJ6h_P12
+l32
+L30
+V=Zm`oe5izNC0V3f0R<?D[3
+!s100 fZba[g:X[gA1ee43FSh:T0
+R6
+32
+R7
+!i10b 1
+R8
+R143
+R144
+!i113 1
+R11
+R12
+Etest_calculadora
+Z146 w1778583260
+R20
+R21
+R1
+R2
+R3
+Z147 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/TEST_CALCULADORA.vhd
+Z148 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/TEST_CALCULADORA.vhd
+l0
+L6
+VINkFc<>S147k574hz?0g[3
+!s100 Ea@R7VLPcIl[`lEJz?PPW0
+R6
+32
+R7
+!i10b 1
+R8
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/TEST_CALCULADORA.vhd|
+Z150 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/TEST_CALCULADORA.vhd|
+!i113 1
+R11
+R12
+Atest
+R23
+R20
+R21
+R1
+R2
+DEx4 work 16 test_calculadora 0 22 INkFc<>S147k574hz?0g[3
+l103
+L9
+V5j31GD=]f?MS2CFM^QFEn3
+!s100 Thd1`LJ9G9FgfI9EJU3342
+R6
+32
+R7
+!i10b 1
+R8
+R149
+R150
+!i113 1
+R11
+R12
+Etest_ctrl_tec
+Z151 w1778147308
+R71
+R20
+R21
+R1
+R2
+R3
+Z152 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/test_ctrl_tec.vhd
+Z153 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/test_ctrl_tec.vhd
+l0
+L48
+V?i8<MjSZogjZnN4?Lij`Y3
+!s100 3H^W8oQj`jQ8^d>2;09A;3
+R6
+32
+R7
+!i10b 1
+R8
+Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/test_ctrl_tec.vhd|
+Z155 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/MODELSIM/TEST/test_ctrl_tec.vhd|
+!i113 1
+R11
+R12
+Atest
+R85
+R78
+R22
+R145
+R71
+R20
+R21
+R1
+R2
+DEx4 work 13 test_ctrl_tec 0 22 ?i8<MjSZogjZnN4?Lij`Y3
+l65
+L51
+V6_WnfUO<OVT`]C>4Ad7220
+!s100 JUoOhFkYe_79QSIhi0RQg0
+R6
+32
+R7
+!i10b 1
+R8
+R154
+R155
+!i113 1
+R11
+R12
+Etimer
+Z156 w1778583228
+R20
+R21
+R1
+R2
+R3
+Z157 8E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TIMER/timer.vhd
+Z158 FE:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TIMER/timer.vhd
+l0
+L24
+VXjkfPH2`o91P<J^D0W[hO0
+!s100 F70LKd]c?CGjHoSB`7Enh3
+R6
+32
+R61
+!i10b 1
+R62
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TIMER/timer.vhd|
+Z160 !s107 E:/UNIVERSIDAD_Blanca/8semestre/DD_II/BT2/Calculadora_F3/HDL/TIMER/timer.vhd|
+!i113 1
+R11
+R12
+Artl
+R20
+R21
+R1
+R2
+R14
+l40
+L36
+VDCN244lA[ZOSB[jh88ZZj2
+!s100 ILhJ2[7BEBS60V?RecjiR1
+R6
+32
+R61
+!i10b 1
+R62
+R159
+R160
+!i113 1
+R11
+R12

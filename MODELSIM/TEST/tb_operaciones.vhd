@@ -1,0 +1,128 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity tb_operaciones is
+end entity;
+
+architecture test of tb_operaciones is
+ constant T_clk:  time      := 1 us;
+ signal resultado_ca2 : std_logic_vector(20 downto 0);
+ signal clk, nRst, ena_res: std_logic;
+ signal operando1_ca2, operando2_ca2: std_logic_vector(10 downto 0); 
+ signal operacion, ena_op: std_logic_vector(1 downto 0);
+
+begin
+   DUT: entity work.operaciones(rtl)
+        port map( clk => clk,
+                  nRst => nRst,
+                  ena_res => ena_res,
+                  ena_op => ena_op,
+                  operacion => operacion,
+                  resultado_ca2 => resultado_ca2,
+                  operando1_ca2 => operando1_ca2,
+                  operando2_ca2 => operando2_ca2);
+
+  process
+  begin
+    clk <= '0';
+    wait for T_clk/2;
+    clk <= '1';
+    wait for T_clk/2;
+  end process;
+
+  process
+  begin
+    nRst <= '0';
+    operando1_ca2 <= (others => '0');
+    operando2_ca2 <= (others => '0');
+    operacion <= "00"; --pone res a cero
+    ena_op <= "11";
+    wait for 2*T_clk;
+    nRst <= '1';
+    operando1_ca2 <= "010" & X"55";
+    operando2_ca2 <= "110" & X"AA";
+
+    wait for 3*T_clk;
+    operacion <= "01"; --suma
+    for i in 0 to 5 loop
+      wait for T_clk;
+      ena_op <= "11";
+      operando1_ca2 <= operando1_ca2 + i;
+      operando2_ca2 <= operando2_ca2 + i;
+      wait for T_clk;
+      ena_op <= "00";
+    end loop;
+
+    wait for 3*T_clk;
+    operacion <= "10"; --resta
+    for i in 0 to 5 loop
+      wait for T_clk;
+      ena_op <= "11";
+      operando1_ca2 <= operando1_ca2 + i;
+      operando2_ca2 <= operando2_ca2 + i;
+      wait for T_clk;
+      ena_op <= "00";
+    end loop;
+
+    wait for T_clk;
+    operando1_ca2 <= "111" & X"55";
+    operando2_ca2 <= "110" & X"AA";
+
+    for i in 0 to 5 loop
+      wait for T_clk;
+      ena_op <= "11";
+      operando1_ca2 <= operando1_ca2 + 2*i;
+      operando2_ca2 <= operando2_ca2 + i;
+      wait for T_clk;
+      ena_op <= "00";
+    end loop;
+
+    wait for 3*T_clk;
+    operacion <= "11"; --multiplicacion
+    for i in 0 to 5 loop
+      wait for T_clk;
+      ena_op <= "11";
+      operando1_ca2 <= operando1_ca2 + i;
+      operando2_ca2 <= operando2_ca2 + 2*i;
+      wait for T_clk;
+      ena_op <= "00";
+    end loop;
+
+    wait for T_clk;
+    operando1_ca2 <= "111" & X"55";
+    operando2_ca2 <= "000" & X"AA";
+
+    for i in 0 to 5 loop
+      wait for T_clk;
+      ena_op <= "11";
+      operando1_ca2 <= operando1_ca2 + 2*i;
+      operando2_ca2 <= operando2_ca2 + i;
+      wait for T_clk;
+      ena_op <= "00";
+    end loop;
+
+
+    wait for T_clk;
+    operando1_ca2 <= "011" & X"E7"; --  999
+    operando2_ca2 <= "100" & X"19"; -- -999
+    ena_op <= "11";
+    wait for T_clk;
+    ena_op <= "00";
+    wait for 2*T_clk;
+    operando1_ca2 <= "100" & X"19"; -- -999
+    operando2_ca2 <= "100" & X"19"; -- -999
+    ena_op <= "11";
+    wait for T_clk;
+    ena_op <= "00";
+    wait for 2*T_clk;
+    operando1_ca2 <= "011" & X"E7"; -- -999
+    operando2_ca2 <= "011" & X"E7"; -- -999
+    ena_op <= "11";
+    wait for T_clk;
+    ena_op <= "00";
+    wait for 2*T_clk;
+
+    assert false report "se acabo" severity failure;
+  end process;
+end test;
