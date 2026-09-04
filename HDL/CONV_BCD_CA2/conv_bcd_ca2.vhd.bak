@@ -1,0 +1,49 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity conv_BCD_bin is
+   port(clk, nRst, ena_convertir: in std_logic;
+        valor_bcd: in std_logic_vector(11 downto 0);
+        valor_signo: in std_logic;
+        valor_listo: buffer std_logic;
+        valor_ca2: buffer std_logic_vector(10 downto 0)-- 10 bits en binario, pero 11 bits en ca2
+);
+end entity;
+
+architecture rtl of conv_BCD_bin is
+ signal valor_bin: std_logic_vector(9 downto 0);
+begin
+--convertir senal BCD a binario
+-- Lógica: Centenas*100 + Decenas*10 + Unidades
+--         Centenas*100 = Centenas*(64 + 32 + 4)
+--         Decenas*10   = Decenas*(8 + 2)
+-- Centenas => (11 downto 8)	Decenas => (7 downto 4)		Unidades => (3 downto 0)
+  process(clk,nRst)
+  begin
+    if nRst ='0' then
+      valor_ca2 <= (others => '0');
+      valor_listo <= '0';
+    elsif clk'event and clk = '1' then
+      if ena_convertir = '1' then
+        if valor_signo = '0' then
+          valor_ca2 <= '0' & valor_bin;
+        else
+          valor_ca2 <= not('0' & valor_bin) + 1;
+        end if;
+	valor_listo <= '1'; --Valor listo en el proximo flanco
+      else
+	valor_listo <= '0';
+      end if;
+
+    end if;
+  end process;
+
+  valor_bin <= (valor_bcd(11 downto 8) & "000000") -- Centenas*64
+             + ('0' & valor_bcd(11 downto 8) & "00000") -- + Centenas*32
+             + ("0000" & valor_bcd(11 downto 8) & "00") -- + Centenas*4
+             + ("000" & valor_bcd(7 downto 4) & "000")  -- + Decenas*8
+             + ("00000" & valor_bcd(7 downto 4) & '0') -- + Decenas*2
+             + ("000000" & valor_bcd(3 downto 0)); -- + Unidades
+  
+end rtl;
